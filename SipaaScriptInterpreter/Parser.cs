@@ -29,7 +29,7 @@ namespace SipaaScriptInterpreter
 
                     if (line.StartsWith("#"))
                     {
-                        // don't care
+                        // we don't care if the line starts with #
                         continue;
                     }
                     else if (line.StartsWith("PauseProgram"))
